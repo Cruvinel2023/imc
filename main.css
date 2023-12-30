@@ -1,0 +1,98 @@
+nav ul {
+
+    list list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color:antiquewhite;
+    font-size: large;
+
+}
+
+nav {
+    background-color: rgb(43, 226, 58);
+}
+
+nav li :nth-last-child(-n +3) {
+    margin-left: 200px;
+}
+
+.título {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: larger;
+    color:rgb(165, 42, 42);
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+image, div {
+
+    display: inline-block;
+    margin: 200px;
+   
+    
+}
+
+div {
+    position: relative;
+    margin-left: 25px;
+    margin bottom: 25px;
+   
+   
+   
+}
+
+img {
+    margin-top: 50px;
+    border: 10px solid red;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label [for = "Weight"]  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+    color:black;
+}
+
+label [for= "height"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+    color: black;
+}
+
+button, input {
+    margin-bottom: 20px;
+    display: block;
+}
+
+fieldset {
+   
+    margin-right: 1500px;
+    margin-bottom: 20px;
+    border: 25px solid red;
+}
+
+#result {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: black;
+    text-decoration: underline;
+}
