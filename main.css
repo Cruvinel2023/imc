@@ -30,7 +30,7 @@ nav li :nth-last-child(-n +3) {
 
 .título {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-size: larger;
     color:rgb(165, 42, 42);
     text-decoration: underline;
@@ -48,7 +48,7 @@ image, div {
 div {
     position: relative;
     margin-left: 25px;
-    margin bottom: 25px;
+    margin bottom: 0;
    
    
    
@@ -96,3 +96,17 @@ fieldset {
     color: black;
     text-decoration: underline;
 }
+
+.label-destaque {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.imagem-direita {
+    float: right;
+}
+
+fieldset {
+    margin: 0 auto;
+    width: 50%;  /
+    margin-top: 500px; }
